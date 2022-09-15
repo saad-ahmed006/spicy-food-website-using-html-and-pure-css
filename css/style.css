@@ -1,0 +1,393 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 5px 2px 15px rgb(197, 195, 195);
+    position: fixed;
+   right: 0px;
+   left: 0px;
+   background-color: white;
+}
+
+.logo{
+    display: flex;
+    padding: 30px;
+}
+.logo img{
+    width: 60px;
+    height:50px;
+    color: rgb(238, 238, 238);
+
+}
+.link ul{
+    display: flex;
+    margin:60px ;
+}
+.link ul li{
+  list-style: none;
+}
+.link ul li a{
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    font-size: 20px;
+}
+.link ul li a:hover{
+    background-color: green;
+/* padding-right: 30px; */
+/* padding-bottom: 15px; */
+border-radius: 5px;
+
+}
+.icon{
+    padding: 40px;
+   
+    
+}
+.icon svg{
+    width:27px;
+   
+    padding-left: 18px;
+    border-radius: 20px;
+    color: rgb(0, 9, 94);
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+
+}
+
+
+                                        /* main */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content{
+    margin-top: 250px;
+}
+.content h4{
+  font-size: 30px;
+  color: rgb(18, 119, 18);
+}
+ .content h1{
+     margin: -15px;
+    color: rgb(0, 0, 119);
+  font-size: 70px;
+ }
+.content p{
+ font-size: 20px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn-1{
+    border-radius: 5px;
+    width: 110px;
+    padding: 12px;
+    text-align: center;
+    color:white ;
+    font-weight: bold;
+    background-color:rgb(0, 0, 119) ;
+    transition: all 0.2s ease-in-out;
+}
+.btn-1:hover{
+    background-color: rgb(5, 5, 179);
+}
+
+.main-image img{
+    width: 700px;
+   margin-top: 220px;
+}
+
+
+
+
+                                        /* section */
+.dish-heading  {
+    text-align: center;
+    font-size: 50px;
+
+  
+
+
+}
+
+   .container-2{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       background-color: rgb(236, 236, 236);
+   }                                     
+.box img{
+    width: 350px;
+    margin-top: 20px;
+
+}
+.box{
+    border: 2px solid rgb(160, 160, 160);
+    width: 370px;
+    text-align: center;
+    margin-top: 10px;
+ border-radius: 10px;
+ background-color: white;
+ 
+
+}
+.box svg{
+    color: rgb(255, 166, 0);
+
+}
+
+.button-rupess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-rupess p{
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 10px;
+    color: green;
+
+}
+
+
+
+                                                    /* about */
+ .container-3{
+  background-color: #F7F5F8;
+  margin-top: 70px;
+
+   }
+   .container-3 h4{
+       color: green;
+       text-align: center;
+       margin-top: 20px;
+       font-size: 20px;
+   }
+   .container-3 h2{
+    color: rgb(0, 0, 119);
+    text-align: center;
+   }
+  .aboutus-container{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }                                                  
+
+.about-image img{
+    width: 600px;
+    border-radius: 30px;
+}
+.aboutus-button {
+    display: flex;
+    margin-bottom: 40px;
+  
+    
+}
+.aboutus-button-content h5 {
+ font-size: 20px;
+
+ 
+ } 
+ .aboutus-button-content  {
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid rgb(151, 150, 150);
+height: 45px;
+margin-left: 2px;
+border-radius: 5px;
+padding: 7px;
+ 
+ } 
+ .aboutus-button-content svg{
+     color: green;
+     margin-right:10px;
+ } 
+ .about-content h1{
+     color: rgb(0, 0, 119);
+     font-size: 40px;
+ }
+
+
+
+                                                                /* our menu */
+ .container-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: gainsboro;
+    margin-top: 50px;
+}
+
+   .over-menu-container svg{
+       color: rgb(255, 166, 0);
+       margin-left: 10px;
+
+   }    
+ .menu-heading-2{
+color: rgb(0, 0, 119);
+text-align: center;
+   }
+.menu-heading-1{
+       color: green;
+       text-align: center;
+       margin-top: 50px;
+       font-size: 20px;
+
+   }    
+   .over-menu-container{
+       border: 2px solid rgb(206, 206, 206);
+       background-color: white;
+       width: 370px;
+       margin-bottom: 10px;
+       margin-top:40px;
+      
+       border-radius: 10px;
+
+
+   }       
+   .over-menu-container h2{
+       color: rgb(0, 0, 119);
+       margin-left: 15px;
+   }                                              
+
+   .image-menu img{
+       width: 340px;
+       display: block;
+       margin:13px auto;
+       border-radius: 6px;
+     
+
+   }
+
+
+
+
+ .button-rupess-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+.button-rupess-2 p{
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 10px;
+    color: green;
+
+}
+
+
+
+
+
+                                                                /* review */
+.container-5{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-review p{
+    margin:20px;
+}
+
+            .box-review{
+                border: 2px solid rgb(165, 165, 165);
+                border-radius: 4px;
+                width: 350px;
+            }  
+            .comma img{
+margin-left: 60px;
+            }                                                  
+.review-image{
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: space-around; */
+}
+.review-image svg{
+    color: green;
+}
+.review-image img{
+    width: 80px;
+}
+
+
+
+                                                                /* form */
+.container-6{
+    /* border: 2px solid black; */
+    background-color: #d3d3d3;
+    height: 600px;
+   
+}        
+.input-group{
+    /* border: 2px solid black; */
+    background-color: white;
+    text-align: center;
+  
+    width: 900px;
+    height:450px;
+    margin:50px auto;
+    border-radius: 7px;
+
+}                                               
+.input-group input{
+width: 400px;
+height: 40px;
+margin: 20px;
+border-radius: 6px;
+border: none;
+outline: none;
+background-color: gainsboro;
+}
+
+
+
+
+.container-7{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid gray;
+}
+
+.menu-heading-3{
+    color: rgb(0, 0, 119);
+}
+.location li{
+
+    list-style: none;
+    padding: 10px;
+    
+}
+.location li a{
+
+   text-decoration: none;
+   color: rgb(27, 87, 0);
+
+
+}
+
+
+
+
+.footer{
+text-align: center;
+
+}
+ span{
+    color: green;
+}
